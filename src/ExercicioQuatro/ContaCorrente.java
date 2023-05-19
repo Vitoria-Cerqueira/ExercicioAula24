@@ -19,8 +19,8 @@ public class ContaCorrente {
         this.saldo = saldo;
     }
 
-    public double depositoConta(double valor){
-        return saldo += valor;
+    public double depositoConta(double valorDigiado){
+        return saldo += valorDigiado;
     }
 
     public double saqueConta(double valor){
