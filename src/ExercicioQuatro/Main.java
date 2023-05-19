@@ -15,6 +15,8 @@ public class Main {
         System.out.println("Saldo atual: " + pessoaUm.getSaldo());
         pessoaUm.saqueConta(1000);
 
+        System.out.println("Saldo atual " + pessoaUm.getSaldo());
+
 
 
 
